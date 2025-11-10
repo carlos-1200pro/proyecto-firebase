@@ -1,8 +1,8 @@
-# Imagen base
+# Base image
 FROM nginx:alpine
 
-# Copiar los archivos del sitio al contenedor
+# Copy site files to container
 COPY . /usr/share/nginx/html
 
-# Exponer puerto 80
+# Expose port 80
 EXPOSE 80
